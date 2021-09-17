@@ -1,0 +1,77 @@
+x/* CSS files --> project.html */
+body{
+    background-color: #2D4059;
+}
+.table-menu{
+    width:100%; 
+    text-align: center;
+    background-color: #FFD460;
+    font-family: 'Cinzel';
+}
+h1{
+    text-align: center; 
+    font-family: 'Cinzel';
+    background-color: #F07B3F;
+} 
+h4{
+    text-align: center; 
+    font-family: 'Amatic SC'; 
+    font-weight: normal;
+}
+h5{ 
+    text-align: center; 
+    font-family: 'Amatic SC'; 
+    font-weight: normal;
+}
+p{
+    text-align: center;  
+    background-color: #EA5455;  
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+.project-name{
+    font-family: 'Sahitya';
+    text-align: center;
+    background-color: #F07B3F;
+}
+/* ใส่กล่องในกับหัวข้อเมนู ด้วยคำสั่ง Button */
+.btn-1{
+    background-color:#FFD460;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-2{
+    background-color: #FFD460;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-3{
+    background-color: #FFD460;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-4{
+    background-color: #FFD460;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-5{
+    background-color: #FFD460;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-1:hover {
+    background-color: #F07B3F;
+}
+.btn-2:hover {
+    background-color: #F07B3F;
+}
+.btn-3:hover {
+    background-color: #F07B3F;
+}
+.btn-4:hover {
+    background-color: #F07B3F;
+}
+.btn-5:hover {
+    background-color: #F07B3F;
+}
