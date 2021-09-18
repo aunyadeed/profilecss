@@ -1,0 +1,121 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    background-color: #F4EEFF;
+}
+h1{
+    text-align: center;
+    font-family:'Cinzel';
+    font-weight: bold;
+    color: beige;
+    /*background-color:#F0D9FF;*/
+}
+h2{
+    text-align: center;
+    font-family: 'Cinzel';
+    font-weight: normal;
+    border-style: double;
+    border-color: #424874;
+    /*background-color: #F2E1C1;*/
+}
+h4{
+    text-align: center; 
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    color: beige;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    width: 33.33%; 
+    vertical-align: top;
+}
+/* (2) Class Selector */ 
+/* วิธีตั้งให้เติมจุดเข้าไปหน้าชื่อของคำสั่งคลาส*/
+.p-Aboutme{
+    font-weight:normal; 
+    text-align: justify;
+    font-family:'Sahitya';
+    
+}
+.h2-verifyMe{
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    color: beige;
+}
+.p-Name{
+    font-weight:normal;
+}
+.p-Footer{
+    text-align: center;
+    font-family: 'Sahitya';
+}
+.p-email{
+    font-family: 'Sahitya';
+}
+.name{
+    text-decoration: wavy;
+    font-family:'Amatic SC';
+    /*background-color:#F0D9FF;*/
+    
+}
+/* (3) id selector */
+/* วิธีตั้งใช้เติม # แทน */
+#th-Details{
+    text-align: left;
+    font-family:'Sahitya';
+    
+}
+/* div */
+.top-container{
+    background-color:#424874;
+}
+.table-menu{ /* คือให้สีมันขึ้นแต่ละคำนั้นๆ ภายในตารางเดียวกัน */
+    background-color:#F4EEFF; /* คำสั่ง hover คือคำสั่งเมาส์โดยเมื่อกดเลือก็จะขึ้นสีตามที่เมาส์ไปชี้ */    
+}
+.table-content h2{
+    background-color:#DCD6F7;
+}
+/* ใส่กล่องในกับหัวข้อเมนู ด้วยคำสั่ง Button */
+.btn-1{
+    background-color:#DCD6F7;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-2{
+    background-color: #DCD6F7;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-3{
+    background-color: #DCD6F7;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-4{
+    background-color: #DCD6F7;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-5{
+    background-color: #DCD6F7;
+    padding: 10px 30px;
+    font-family:'Cinzel'; 
+}
+.btn-1:hover {
+    background-color: #A6B1E1;
+}
+.btn-2:hover {
+    background-color: #A6B1E1;
+}
+.btn-3:hover {
+    background-color: #A6B1E1;
+}
+.btn-4:hover {
+    background-color: #A6B1E1;
+}
+.btn-5:hover {
+    background-color: #A6B1E1;
+}
